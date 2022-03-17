@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut ico" href="favicon.ico">
     <title>Interatividade</title>
-    <style>
-    <body>
-        {font: 12pt Arial;}
-    </body>
-    </style>    
+    
+        <style>
+            body{font: 12pt Arial;}
+            button{font-size:20pt;
+            padding: 20px;}
+        </style>
 </head>
 <body>
     <h1>Interagindo com um botão</h1>
+<button onclick="ação()">clica em mim!</button>
+<script>
+    function ação(){window.alert("Você clicou no botão")}
+</script>
     
 </body>
 </html>
