@@ -16,19 +16,20 @@
 <body>
     <h1>iniciando estudos DOM</h1>
     <p>Testando o DOM</p>
-    <div>CLick aqui</div>
+    <div id="msg">CLick aqui</div>
     <p>aprendendo a uar <STRONG>DOM</STRONG> em JavaScript</p>
     <p>Escola naval</p>
 
     <script>
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
-        /*var p2 = window.document.getElementById('p')[1]*/
-        /*window.document.write("está escrito assim " + p1.innerText)*/
+        var p2 = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('msg')
+        window.document.write("está escrito assim " + p1.innerHTML)
         corpo.style.background="black"
         p1.style.color = "blue"
-        p2.style.color = "black"
-
+        p2.style.color = "green"
+        d.style.color = "pink"
     </script>
 </body>
 </html>
