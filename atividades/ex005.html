@@ -17,7 +17,7 @@
     <h1>iniciando estudos DOM</h1>
     <p>Testando o DOM</p>
     <div class ="msg">CLick aqui</div>
-    <p>aprendendo a uar <STRONG>DOM</STRONG> em JavaScript</p>
+    <p>Aprendendo a usar <STRONG>DOM</STRONG> em JavaScript</p>
     <p>Escola naval</p>
 
     <script>
@@ -25,14 +25,16 @@
         var p1 = window.document.getElementsByTagName('p')[1]
         var p2 = window.document.getElementsByTagName('p')[0]
         var d = window.document.getElementsByClassName('msg')[0]
-
-        window.document.write("está escrito assim " + p1.innerHTML)
+        
+        window.document.write("Está escrito assim" + p1.innerText)
         corpo.style.background = "black"
-        p1.style.color = "blue"
-        p2.style.color = "green"
-        d.style.color = "pink"
+        p1.style.color = "white"
+        p2.style.color = "white"
+        d.style.color = "white"
         d.innerText = "Coração"
-        d.style.background = "red"     
+        d.style.background = "red"
+        var d = window.document.querySelector(div#msg)
+
     </script>
 </body>
 </html>
