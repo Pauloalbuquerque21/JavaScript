@@ -7,9 +7,17 @@
     <title>Somando númros</title>
 
     <STYLE>
-        div{
-            font-size: 30px;
+        body{
+            background: green;
         }
+        div {
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            color: white;
+            
+        }
+        
     </STYLE>
 </head>
 <body>
@@ -22,11 +30,11 @@
             function somar() {
                 var tn1 = window.document.getElementById('txtn1')
                 var tn2 = window.document.querySelector('input#txtn2')
-                var res = window.document.getElementById('res')
+                var tn3 = window.document.getElementById('res')
                 var n1 = Number(tn1.value)
                 var n2 = Number(tn2.value)
                 var s = n1 + n2
-                res.innerHTML = "A soma entre" +n1+ "e" +n2+ " é igual a" +s+
+                tn3.innerHTML = "A soma entre " +n1+ " e " +n2+ " é igual a <strong>"+s+"<strong>"
             }
         </script>
     
