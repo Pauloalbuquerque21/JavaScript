@@ -10,9 +10,15 @@
     <h1>Aeroporto</h1>
     Qual o país que você vive: <input type="text" id="from"><br>
     <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
     <script>
         function verificar(){
-            
+            var pais = window.document.querySelector('input#from')
+            var res = window.document.querySelector('div#res')
+            var vel = String(pais.value)
+            res.innerHTML = `seu país é ${vel}`
         }
     </script>
 
