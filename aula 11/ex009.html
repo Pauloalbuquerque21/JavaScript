@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>atividade</title>
+    
 </head>
 <body>
     <h1>Aeroporto</h1>
@@ -18,10 +19,15 @@
             var pais = window.document.querySelector('input#from')
             var res = window.document.querySelector('div#res')
             var vel = String(pais.value)
-            res.innerHTML = `seu país é ${vel}`
+            if(vel=='brasil'){
+                res.innerHTML += `Como você é do ${vel}, então você é <strong>Brasilveiro</strong>`
+            }
+            else{
+                res.innerHTML += `Como você não é do ${vel}, então você é <strong>Estrangeiro</strong>`
+            }
+            res.innerHTML += '<p>seja bem vindo</p>'
         }
     </script>
-
 
 
     
