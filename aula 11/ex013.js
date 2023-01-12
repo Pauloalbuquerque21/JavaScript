@@ -1,7 +1,7 @@
-var agora = new Date()
+/*var agora = new Date()
 var diaSem = agora.getDay()
 diaSem = 5
-/*
+
     0 = domingo 
     1 = Segunda
     2 = Terça 
@@ -9,7 +9,7 @@ diaSem = 5
     4 = Quinta
     5 = Sexta 
     6 = Sábado
-*/
+
 
 switch(diaSem){
     case 0:
@@ -37,6 +37,16 @@ switch(diaSem){
         console.log('[Erro] Dia invalido')
         break
 
+
+}*/
+
+var idade = 12
+
+if(idade <18){
+    console.log("Você é menor de idade, ou seja, não pode entrar")
+
+} else {
+    console.log('Você é maior de idade, ou seja, pode entrar')
 
 }
 
