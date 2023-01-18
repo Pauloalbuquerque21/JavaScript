@@ -4,6 +4,7 @@ while (c<6){
     console.log(`Passo ${c}`)    
     c++
 } */
+/*
 var a = 1
 var e = 10
 console.log('Tem pão[yes or not]')
@@ -20,4 +21,4 @@ if (c=='yes'){
 }
 else {
     console.log('Desculpa, não tem pão')
-}
+}*/
