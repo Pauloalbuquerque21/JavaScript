@@ -34,15 +34,15 @@ while(c<=valores.length){
     console.log(valores[c])
     c=c+1
 } 
-
+*/
 for(let pos in valores){
     console.log(`A posição ${pos} tem o valor ${valores[pos]}`)
-}*/
-
+}
+/*
 valores.sort()
 valores.push(3)
 let pos = valores.indexOf(5)
 if (pos == -1){
     console.log('Não existe esse elemento no array')
 }else{
-console.log(`O elemento 3 está na chave ${pos}`)}
+console.log(`O elemento 3 está na chave ${pos}`)}*/
