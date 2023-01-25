@@ -1,4 +1,4 @@
-var quantidade = 10
+/*var quantidade = 10
 var c = 0
 function pão(n){
     if (n<= quantidade){
@@ -11,4 +11,6 @@ function pão(n){
     }
 }
 let resultado = pão(5)
-console.log(resultado)
+console.log(resultado)*/
+
+
