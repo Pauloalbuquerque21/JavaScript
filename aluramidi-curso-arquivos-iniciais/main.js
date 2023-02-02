@@ -1,16 +1,5 @@
 // POM ----------------------------------------------------
-function tocasom(idelementoaudio) {
-    document.querySelector(idelementoaudio).play();  
+function tocaPom() {
+    document.querySelector('#som_tecla_pom').play();  
 }
-const listadeteclas = document.querySelectorAll('.tecla'); 
-
-
-let contador = 0;
-
-//enquanto 
-while (contador < listadeteclas.length) {
-    listadeteclas[contador].onclick = tocasom;
-    contador = contador + 1;
-
-    console.log(contador)
-}
+document.querySelector('.tecla_pom').onclick = tocaPom
