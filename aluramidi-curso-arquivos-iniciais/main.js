@@ -2,14 +2,14 @@
 function tocaPom() {
     document.querySelector('#som_tecla_pom').play();  
 }
+
+document.querySelectorAll('.tecla')
+
+/*
+Lista 
+
+/*
 document.querySelector('.tecla_pom').onclick = tocaPom
-
-
-
-
-
-
-
 
 /*
 clap
